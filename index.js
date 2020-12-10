@@ -1,8 +1,8 @@
 const sendmail = require('sendmail')();
 
 sendmail({
-    from: 'abrahamnarvaezv@gmail.com',
-    to: 'abrahamnarval@misena.edu.co',
+    from: 'mail@example.com',
+    to: 'mail@example.com',
     subject: 'Probando',
     html: 'Probando',
   }, function(err, reply) {
